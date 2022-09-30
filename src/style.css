@@ -1,0 +1,197 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #DFF2F1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav img {
+    width: 15vw;
+    height: 80px;
+    padding: 3px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    margin: 15px;
+}
+
+.sidenav a:hover {
+    color: white;
+    background: #3AB6AB;
+    border-radius: 8px;
+    width: 12vw;
+    margin-left: 5px;
+}
+
+a.sidenav {
+    color: white;
+    background: #3AB6AB;
+    border-radius: 8px;
+    width: 12vw;
+    margin-left: 5px;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.menu-bar {
+    display: grid;
+    grid-template-columns: auto auto 1fr 1fr auto auto auto;
+}
+
+.menu-bar li {
+    margin: 3px;
+    list-style-type: none;
+    font-size: 27px;
+    padding: 5px;
+}
+
+.green {
+    background-color: #3AB6AB;
+    color: white;
+    padding-top: 1px;
+    height: auto;
+}
+
+
+/* User Component */
+
+.user-table table th {
+    background: #F4F6F8;
+    padding: 10px;
+    color: #53BBAE;
+    font-size: 18px;
+    text-align: left;
+}
+
+.user-table table {
+    border: none;
+    width: auto;
+    margin-left: 300px;
+}
+
+.user-table table {
+    border-collapse: separate;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 0px !important;
+    font-variant: normal;
+}
+
+.user-table table td {
+    color: black;
+    border-bottom: 2px solid #F4F6F8;
+    padding: 10px;
+}
+
+.user-main {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-table {
+    margin-top: 10px;
+}
+
+.deshboad {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-user-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.add-user-btn button,.user-input button {
+    background: #3AB6AB;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.add-user-btn button:hover,.user-input button:hover {
+    background: #6ad2c9;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.user-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-input input {
+    display: flex;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.error{
+    color: red;
+    width: 100%;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns div{
+    margin: 3px;
+}
+
+.user-input-sub-div{
+    width: 300px;
+}
